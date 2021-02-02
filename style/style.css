@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up {
+    margin: 0 auto;
+    display: block;
+    margin-top: 1.5em;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    border: none;
+    cursor: pointer;
+    background-color: rgb(150, 250, 0);
+    padding: 1em 5em;
+}
+
+.sign-up:hover {
+    background-color: rgb(144, 209, 47);
+}
+
+.section-single-price {
+    width: 35em;
+    background-color: white;
+}
+
+.section-main-content {
+    display: flex;
+}
+
+.section-header-price {
+    padding: 2em;
+}
+
+.section-main-subscription {
+    width: 60em;
+    color: white;
+    padding: 2em;
+    background-color: rgb(155, 144, 144);
+}
+
+.section-about-us {
+    color: white;
+    padding: 2em;
+    background-color: rgb(206, 175, 175);
+}
+
+.header-title {
+    color: rgb(155, 144, 144);
+    margin-bottom: 1em;
+    font-size: 20px;
+}
+
+.header-subtitle {
+    color: rgb(150, 250, 0);
+    margin-bottom: .7em;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.header-caption {
+    font-size: 14px;
+    color: rgb(175, 172, 172);
+}
+
+.main-title {
+    font-size: 18px;
+    margin-bottom: 1em;
+}
+
+.price {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.opacity {
+    font-size: 12px;
+    color: rgb(231, 197, 197);
+    font-weight: lighter;
+}
+
+.price-caption {
+    font-size: 12px;
+    padding-top: .6em;
+}
+
+.about-us-title {
+    font-size: 18px;
+    margin-bottom: 1em;
+}
+
+.about-us-caption {
+    font-size: 12px;
+    color: rgb(227, 231, 235);
+}
+
+@media(max-width:630px) {
+    body {
+        display: inline-block;
+    }
+    .section-single-price {
+        width: 100%;
+    }
+    .section-main-content {
+        display: block;
+    }
+    .section-main-subscription {
+        width: 100%;
+    }
+}
